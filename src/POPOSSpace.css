@@ -1,6 +1,10 @@
 .POPOSSpace {
   width: 100%;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .POPOSSpace > img {
@@ -10,4 +14,14 @@
 
 .POPOSSpace > p {
   margin-bottom: 0;
+}
+
+.Link {
+  color: #eee;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.Link:hover {
+  color: #ffd369;
 }
