@@ -2,13 +2,13 @@
   margin-top: 2em;
   padding: 1em;
   height: 10vh;
-  background: #375a7f;
+  background: #ffd369;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .Footer > p {
-  color: #fff;
+  color: #222831;
   margin: 0;
 }
