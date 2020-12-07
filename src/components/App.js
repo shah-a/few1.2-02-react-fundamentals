@@ -1,10 +1,9 @@
-// import logo from './logo.svg';
 import './App.css';
-import Title from './Title.js';
-import POPOSList from './POPOSList.js';
-import Footer from './Footer.js';
-import About from './About.js';
-import POPOSDetails from './POPOSDetails.js';
+import Title from './Title/Title.js';
+import POPOSList from './POPOSList/POPOSList.js';
+import Footer from './Footer/Footer.js';
+import About from './About/About.js';
+import POPOSDetails from './POPOSDetails/POPOSDetails.js';
 
 import {HashRouter as Router, Route} from 'react-router-dom';
 

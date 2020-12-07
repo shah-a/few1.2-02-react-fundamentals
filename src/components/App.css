@@ -1,0 +1,11 @@
+/* Color palette: https://colorhunt.co/palette/219713 
+#222831
+#393e46
+#ffd369
+#eeeeee */
+
+.App {
+  text-align: center;
+  background-color: #222831;
+  color: #eee;
+}

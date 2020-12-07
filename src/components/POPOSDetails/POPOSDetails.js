@@ -1,6 +1,6 @@
 // import React from 'react';
-import './POPOSDetail.css';
-import data from './sfpopos-data.json';
+import './POPOSDetails.css';
+import data from '../../sfpopos-data.json';
 
 function POPOSDetails (props) {
   const { id } = props.match.params;
