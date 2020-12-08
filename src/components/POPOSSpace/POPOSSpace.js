@@ -6,9 +6,6 @@ function POPOSSpace(props) {
   const { id, name, image, address, hours } = props;
   return (
     <div className="POPOSSpace">
-      <Link className="Link" to={`details/${id}`}>
-        <h1>{name}</h1>
-      </Link>
       <Link to={`details/${id}`}>
         <img src={`${process.env.PUBLIC_URL}images/${image}`}
           alt={image}
@@ -16,8 +13,13 @@ function POPOSSpace(props) {
           height="300"
         />
       </Link>
-      <p>{address}</p>
-      <p>{hours}</p>
+      <Link className="Link title" to={`details/${id}`}>
+        <h1>{name}</h1>
+      </Link>
+      <div className="info">
+        <div><p>{address}</p></div><br/>
+        <div><p>{hours ? hours : "⌛️⏳"}</p></div>
+      </div>
     </div>
   );
 }
