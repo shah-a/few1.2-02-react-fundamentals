@@ -1,4 +1,9 @@
+.About {
+  min-height: 75vh;
+}
+
 .About > p {
+  max-width: 1200px;
   margin: auto;
-  width: 50%;
+  padding: 0 2em;
 }
