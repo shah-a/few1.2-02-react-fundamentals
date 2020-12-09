@@ -1,7 +1,7 @@
-.Title {
+.Header {
   box-sizing: border-box;
   width: 100%;
-  /* display: flex; */
+  text-align: center;
   justify-content: center;
   align-items: baseline;
   padding: 1em;
@@ -10,7 +10,7 @@
   background-color: #ffd369;
 }
 
-.Title-Subtitle {
+.Header .subtitle {
   color: rgba(34, 40, 49, 0.75);
   font-weight: bold;
 }

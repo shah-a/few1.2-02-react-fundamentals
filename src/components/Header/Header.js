@@ -1,13 +1,13 @@
 // import React from 'react';
-import './Title.css';
+import './Header.css';
 import {NavLink} from 'react-router-dom';
 
-function Title() {
+function Header() {
   return (
-    <div className="Title">
+    <div className="Header">
       <header>
-        <h1>SFPOPOS</h1>
-        <div className="Title-Subtitle"> San Francisco's Privately Owned Public Open Spaces</div>
+        <h1 className="title">SFPOPOS</h1>
+        <div className="subtitle"> San Francisco's Privately Owned Public Open Spaces</div>
 
         <div>
           <NavLink
@@ -26,4 +26,4 @@ function Title() {
   );
 }
 
-export default Title;
+export default Header;

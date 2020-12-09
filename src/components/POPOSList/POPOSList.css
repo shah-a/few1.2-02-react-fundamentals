@@ -1,4 +1,4 @@
-.POPOSList {
+.POPOSList .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2em;
@@ -8,13 +8,34 @@
 }
 
 @media only screen and (max-width: 960px) {
-  .POPOSList {
+  .POPOSList .grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media only screen and (max-width: 700px) {
-  .POPOSList {
+  .POPOSList .grid {
     grid-template-columns: 1fr;
   }
+}
+
+.POPOSList .form {
+  text-align: center;
+}
+
+.POPOSList .form input {
+  padding: 0.5em;
+  margin: 0;
+  font-size: 1em;
+  border: 1px solid #eee;
+  color: #eee;
+  background-color: #222831;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+}
+
+.POPOSList .form input::placeholder {
+  color: rgba(238, 238, 238, 0.5);
 }
