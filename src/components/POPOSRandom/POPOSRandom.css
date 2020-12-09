@@ -1,0 +1,12 @@
+.POPOSRandom {
+  margin-top: 0.5em;
+  padding: 0.5em;
+  font-size: 1em;
+  border: 1px solid #eee;
+  color: #eee;
+  background-color: #222831;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+}

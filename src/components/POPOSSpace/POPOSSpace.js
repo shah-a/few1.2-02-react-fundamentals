@@ -1,6 +1,6 @@
 // import React from 'react';
 import './POPOSSpace.css';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function POPOSSpace(props) {
   const { id, name, image, address, hours } = props;

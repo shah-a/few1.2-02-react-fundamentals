@@ -1,6 +1,7 @@
 // import React from 'react';
 import './Header.css';
-import {NavLink} from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+import POPOSRandom from '../POPOSRandom/POPOSRandom.js';
 
 function Header() {
   return (
@@ -8,7 +9,6 @@ function Header() {
       <header>
         <h1 className="title">SFPOPOS</h1>
         <div className="subtitle"> San Francisco's Privately Owned Public Open Spaces</div>
-
         <div>
           <NavLink
             className="NavLink"
@@ -21,6 +21,7 @@ function Header() {
             exact
             to="/about">About</NavLink>
         </div>
+        <POPOSRandom />
       </header>
     </div>
   );

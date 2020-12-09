@@ -5,7 +5,7 @@ import Footer from './Footer/Footer.js';
 import About from './About/About.js';
 import POPOSDetails from './POPOSDetails/POPOSDetails.js';
 
-import {HashRouter as Router, Route} from 'react-router-dom';
+import { HashRouter as Router, Route } from 'react-router-dom';
 
 function App() {
   return (

@@ -18,6 +18,7 @@
 .NavLink {
   display: inline-block;
   padding: 0.5em 1em;
+  margin-bottom: 0.5em;
   color: rgba(34, 40, 49, 0.835);
   font-weight: bold;
   text-decoration: none;
