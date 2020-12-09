@@ -1,4 +1,29 @@
 .POPOSDetails {
-  width: 50%;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 960px;
   margin: auto;
+}
+
+.POPOSDetails .info {
+  flex: 1;
+  text-align: left;
+  padding: 0 1em;
+}
+
+.POPOSDetails .title {
+  font-size: 2em;
+  margin: 0;
+}
+
+.POPOSDetails .image {
+  flex: 2;
+}
+
+.POPOSDetails .image img {
+  width: 100%;
+}
+
+.POPOSDetails .hours {
+  font-size: 1.5em;
 }

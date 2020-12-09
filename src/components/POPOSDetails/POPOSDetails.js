@@ -8,16 +8,16 @@ function POPOSDetails (props) {
 
   return (
     <div className="POPOSDetails">
-      <div>
+      <div className="image">
         <img src={`${process.env.PUBLIC_URL}images/${images[0]}`} alt="" />
       </div>
 
-      <div>
-        <h1>{title}</h1>
-        <p>{desc}</p>
-        <p>{hours}</p>
-        <p>{features}</p>
-        <p>{geo.lat} {geo.lon}</p>
+      <div className="info">
+        <h1 className="title">{title}</h1>
+        <p className="desc">{desc}</p>
+        <p className="hours">{hours}</p>
+        <p className="features">{features}</p>
+        <p className="geo">{geo.lat} {geo.lon}</p>
       </div>
     </div>
   );
