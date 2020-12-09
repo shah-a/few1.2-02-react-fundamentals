@@ -1,5 +1,6 @@
 // import React from 'react';
 import './POPOSDetails.css';
+import POPOSFeatureList from '../POPOSFeatures/POPOSFeatureList.js';
 import data from '../../sfpopos-data.js';
 
 function POPOSDetails (props) {
@@ -16,7 +17,7 @@ function POPOSDetails (props) {
         <h1 className="title">{title}</h1>
         <p className="desc">{desc}</p>
         <p className="hours">{hours}</p>
-        <p className="features">{features}</p>
+        <p><POPOSFeatureList features={features} /></p>
         <p className="geo">{geo.lat} {geo.lon}</p>
       </div>
     </div>
